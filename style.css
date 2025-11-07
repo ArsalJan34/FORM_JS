@@ -39,7 +39,7 @@ background-color: rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
-
+/*
 .formbox::before {
   content: "";
   position: absolute;
@@ -58,9 +58,9 @@ background-color: rgba(0, 0, 0, 0.5);
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-}
+} */
 
-@keyframes shine {
+/* @keyframes shine {
   0% {
     background-position: 0% 50%;
   }
@@ -68,7 +68,7 @@ background-color: rgba(0, 0, 0, 0.5);
   100% {
     background-position: 300% 50%;
   }
-}
+} */
 .user-info{
   display: flex;
   flex-direction: column;
@@ -89,4 +89,21 @@ h3{
 }
 .address-line2 input{
   margin: 2px;
+}
+.submit-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, purple, magenta);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, magenta, purple);
+  box-shadow: 0 0 10px magenta;
+  transform: scale(1.05);
 }
