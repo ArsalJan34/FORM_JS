@@ -18,6 +18,12 @@ body {
   align-items: center;
  color: white;
 }
+.title{
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  color: purple;
+}
 .location-box {
     text-align: center;
   padding: 20px 30px;
