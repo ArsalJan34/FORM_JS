@@ -12,11 +12,22 @@ body {
 
 }
 .form{
-  margin: 100px 0 0 0 ;
+  margin: 20px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
  color: white;
+}
+.location-box {
+    text-align: center;
+  padding: 20px 30px;
+  background: purple;
+  width: 100%;
+  border-radius: 8px;
+}
+.location-box i {
+
+  font-size: 50px;
 }
 .form label{
   margin: 5px 0 5px 0;
