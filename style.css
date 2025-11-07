@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background: white;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formbox{
+  background:blue;
+  padding: 30px 40px;
+  display: block;
+  max-width: 500px;
+}
+.user-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align-last: left;
+}
+.order-info{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align-last: left;
+}
+h3{
+  font-size: 15px;
+}
